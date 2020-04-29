@@ -7,20 +7,22 @@ import {FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import 'hammerjs'
+import {MatListModule} from '@angular/material/list'
+import 'hammerjs';
+import { MenuComponent } from './menu/menu.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     FlexLayoutModule,
-    MatToolbarModule
-    
+    MatToolbarModule,
+    MatListModule
 
   ],
   providers: [],
