@@ -14,6 +14,7 @@ import { MenuComponent } from './menu/menu.component';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
 import {DishService} from './services/dish.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
